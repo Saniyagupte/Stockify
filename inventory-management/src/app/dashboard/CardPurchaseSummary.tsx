@@ -40,10 +40,10 @@ const CardPurchaseSummary = () => {
             </div>
          </div>
               {/* CHARTS*/}
-              <ResponsiveContainer width="100%" height={350} className="px-7">
+              <ResponsiveContainer width="100%" height={180} className="p-2">
               <AreaChart
                 data={purchaseData}
-                margin={{ top: 0, right: 0, left: -50, bottom: 45 }}
+                margin={{ top: 10, right: 0, left: -50, bottom: 60 }}
               >
                 <XAxis
                   dataKey="date"
