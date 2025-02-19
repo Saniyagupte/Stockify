@@ -26,8 +26,8 @@ app.use("/products" , productRoutes);  // http://localhost:8000/products
 app.use("/users" , userRoutes);  // http://localhost:8000/users
 
 /* server */
-const port=process.env.PORT || 8000;
-app.listen(port , () => {
+const port= Number(process.env.PORT) || 8000;
+app.listen(port , "0.0.0.0" , () => {
     console.group( `Server running on port ${port}`);
 });
 

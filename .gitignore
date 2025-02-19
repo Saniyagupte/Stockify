@@ -1,0 +1,7 @@
+inventory-management/node_modules/
+server/node_modules/
+inventory-management/dist/
+server/dist/
+inventory-management/.env/
+server/.env/
+inventory-management/.next/
