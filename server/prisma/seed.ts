@@ -36,7 +36,7 @@ async function deleteAllData(orderedFileNames: string[]) {
 }
 
 async function main() {
-  const dataDirectory = path.join(__dirname, "seedData");
+  const dataDirectory = path.join(__dirname, "seeddata");
 
   const orderedFileNames = [
     "products.json",
